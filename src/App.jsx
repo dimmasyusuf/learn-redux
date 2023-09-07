@@ -1,8 +1,11 @@
+import { Center } from '@chakra-ui/react';
+import AddProduct from './components/AddProduct';
+
 function App() {
   return (
-    <>
-      <h1>Learn Redux</h1>
-    </>
+    <Center w='100%' h='100vh'>
+      <AddProduct />
+    </Center>
   );
 }
 
