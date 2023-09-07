@@ -7,6 +7,7 @@ function AddProduct() {
       borderRadius='lg'
       shadow='md'
       p='6'
+      mb='6'
       w={{ base: '90%', sm: '70%', md: '50%', lg: '30%' }}
     >
       <form>
