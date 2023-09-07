@@ -1,11 +1,13 @@
-import { Center } from '@chakra-ui/react';
+import { VStack } from '@chakra-ui/react';
 import AddProduct from './components/AddProduct';
+import ShowProduct from './components/ShowProduct';
 
 function App() {
   return (
-    <Center w='100%' h='100vh'>
+    <VStack w='100%' h='100vh' alignItems='center' justifyContent='center'>
       <AddProduct />
-    </Center>
+      <ShowProduct />
+    </VStack>
   );
 }
 
